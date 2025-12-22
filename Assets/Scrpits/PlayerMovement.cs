@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Controller = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
+        Time.timeScale = 1;
         Cursor.visible = false;
     }
 
