@@ -1,16 +1,27 @@
 using UnityEngine;
+using UnityEngine.Video;
 
 public class TVOn : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public VideoPlayer tvStatic;
+    public GameObject tvOff;
+
+    public void OnTriggerEnter(Collider other)
     {
-        
+        if (other.CompareTag("Player"))
+        {
+            tvStatic.Play();
+            tvOff.SetActive(false);
+            
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnTriggerExit(Collider other)
     {
-        
+        if (other.CompareTag("Player"))
+        {
+            tvStatic.Stop();
+            tvOff.SetActive(true);
+        }
     }
 }
