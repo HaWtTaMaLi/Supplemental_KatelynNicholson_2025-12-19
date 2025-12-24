@@ -1898,6 +1898,7 @@ GameObject:
   - component: {fileID: 221258487}
   - component: {fileID: 221258486}
   - component: {fileID: 221258485}
+  - component: {fileID: 221258488}
   m_Layer: 0
   m_Name: RadioTrigger
   m_TagString: Untagged
@@ -1994,6 +1995,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 221258483}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &221258488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221258483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d72b90e685dddb428144bafefa4d858, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radioSound: {fileID: 913480735}
+  isPlaying: 0
 --- !u!1 &222841039
 GameObject:
   m_ObjectHideFlags: 0
@@ -3149,7 +3164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 296763781}
   m_Layer: 0
-  m_Name: Shelf (1)
+  m_Name: Radio_Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22462,12 +22477,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913480728}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.128, y: 1.8547, z: -9.611}
   m_LocalScale: {x: 0.7332009, y: 0.2494, z: 0.28245786}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1850861150}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &913480735
 AudioSource:
@@ -22481,7 +22496,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: aaa733af6a939d64d947612841ddc115, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -22490,7 +22505,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 1.7834291
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -22526,7 +22541,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -24231,7 +24246,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1114517902}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: ad348cbb04eda424cb70a9d24128073b, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 98522ed8d6ff128409c94d9b56149971, type: 2}
   m_InitialState: 0
   m_WrapMode: 0
   m_DirectorUpdateMode: 1
@@ -35941,7 +35956,7 @@ Light:
   serializedVersion: 11
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 9.720001
   m_Range: 7.290394
   m_SpotAngle: 162.35847
   m_InnerSpotAngle: 101.53394
@@ -43255,6 +43270,7 @@ Transform:
   - {fileID: 1776369221}
   - {fileID: 296763781}
   - {fileID: 1988355031}
+  - {fileID: 913480734}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1857701057
@@ -43419,7 +43435,7 @@ Light:
   serializedVersion: 11
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 9.720001
   m_Range: 7.290394
   m_SpotAngle: 162.35847
   m_InnerSpotAngle: 101.53394
@@ -45695,7 +45711,7 @@ GameObject:
   - component: {fileID: 2130864008}
   - component: {fileID: 2130864007}
   m_Layer: 0
-  m_Name: LightsTrigger (2)
+  m_Name: LightShowTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45889,5 +45905,4 @@ SceneRoots:
   - {fileID: 1709867191}
   - {fileID: 1263915961}
   - {fileID: 222841042}
-  - {fileID: 913480734}
   - {fileID: 731199033}
