@@ -23496,7 +23496,7 @@ MonoBehaviour:
   Camera: {fileID: 330585546}
   pauseMenu: {fileID: 1458447301}
   speed: 5
-  mouseSensitivity: 90
+  mouseSensitivity: 300
   xRotation: 0
   upClamp: -90
   downClamp: 60
@@ -27034,6 +27034,11 @@ PlayableDirector:
     value: {fileID: 731199034}
   m_ExposedReferences:
     m_References: []
+--- !u!1 &1125961103 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7884451840021508662, guid: 27f6966f63c1b2b469264369f9481eef, type: 3}
+  m_PrefabInstance: {fileID: 1242481002349411880}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1127702614
 Mesh:
   m_ObjectHideFlags: 0
@@ -47357,8 +47362,8 @@ Transform:
   - {fileID: 296763781}
   - {fileID: 1776369221}
   - {fileID: 1988355031}
-  - {fileID: 913480734}
   - {fileID: 477187833}
+  - {fileID: 913480734}
   - {fileID: 34486096}
   - {fileID: 839866491}
   m_Father: {fileID: 0}
@@ -49129,6 +49134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tvStatic: {fileID: 1095392404}
   tvOff: {fileID: 1857701057}
+  tvLight: {fileID: 1125961103}
 --- !u!1 &2003701030
 GameObject:
   m_ObjectHideFlags: 0
@@ -50656,7 +50662,7 @@ PrefabInstance:
       objectReference: {fileID: 1825417956}
     - target: {fileID: 644744947207241210, guid: 27f6966f63c1b2b469264369f9481eef, type: 3}
       propertyPath: m_VersionIndex
-      value: 3331
+      value: 3334
       objectReference: {fileID: 0}
     - target: {fileID: 1997788603096534211, guid: 27f6966f63c1b2b469264369f9481eef, type: 3}
       propertyPath: m_Name
@@ -50929,7 +50935,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3278180742761857713, guid: 00fc2ce5c9685f944b8e2470ab9de566, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.746
+      value: 8.601
       objectReference: {fileID: 0}
     - target: {fileID: 3278180742761857713, guid: 00fc2ce5c9685f944b8e2470ab9de566, type: 3}
       propertyPath: m_LocalPosition.y
@@ -50937,7 +50943,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3278180742761857713, guid: 00fc2ce5c9685f944b8e2470ab9de566, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.776
+      value: -8.603
       objectReference: {fileID: 0}
     - target: {fileID: 3278180742761857713, guid: 00fc2ce5c9685f944b8e2470ab9de566, type: 3}
       propertyPath: m_LocalRotation.w
@@ -53141,7 +53147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3287209934454098344, guid: 00fc2ce5c9685f944b8e2470ab9de566, type: 3}
       propertyPath: m_SelectedVertices.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3287209934454098344, guid: 00fc2ce5c9685f944b8e2470ab9de566, type: 3}
       propertyPath: m_Textures0.Array.data[100].x

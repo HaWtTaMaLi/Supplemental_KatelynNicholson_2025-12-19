@@ -5,6 +5,7 @@ public class TVOn : MonoBehaviour
 {
     public VideoPlayer tvStatic;
     public GameObject tvOff;
+    public GameObject tvLight;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -12,6 +13,8 @@ public class TVOn : MonoBehaviour
         {
             tvStatic.Play();
             tvOff.SetActive(false);
+            tvLight.SetActive(true);
+
         }
     }
 
@@ -21,6 +24,7 @@ public class TVOn : MonoBehaviour
         {
             tvStatic.Stop();
             tvOff.SetActive(true);
+            tvLight.SetActive(false);
         }
     }
 }

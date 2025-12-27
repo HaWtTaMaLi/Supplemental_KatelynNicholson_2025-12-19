@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject pauseMenu;
 
     public int speed = 5;
-    public float mouseSensitivity = 50f;
+    public float mouseSensitivity = 300f;
     public float xRotation = 0f;
     public float upClamp = -90f;
     public float downClamp = 30f;
@@ -48,10 +48,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Exit()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Application.Quit();
-        }
+        Application.Quit();
     }
 
     public void Update()
