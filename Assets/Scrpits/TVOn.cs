@@ -12,7 +12,6 @@ public class TVOn : MonoBehaviour
         {
             tvStatic.Play();
             tvOff.SetActive(false);
-            
         }
     }
 

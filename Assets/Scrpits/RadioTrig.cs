@@ -16,7 +16,7 @@ public class RadioTrig : MonoBehaviour
             }
             else
             {
-                radioSound.Stop();
+                radioSound.Pause();
                 isPlaying = false;
             }
         }
