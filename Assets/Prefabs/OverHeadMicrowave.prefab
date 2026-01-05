@@ -2259,7 +2259,7 @@ GameObject:
   - component: {fileID: 6689853341213473987}
   - component: {fileID: 6560058058159408036}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: MicrowavePlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
