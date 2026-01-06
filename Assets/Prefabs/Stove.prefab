@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 131664566849517717}
   - component: {fileID: 3637208267481426157}
   - component: {fileID: 1888651411704120112}
-  - component: {fileID: 3315502782636118619}
   m_Layer: 0
   m_Name: BackSmallGrill
   m_TagString: Untagged
@@ -2155,28 +2154,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222157111048578325}
   m_Mesh: {fileID: 0}
---- !u!64 &3315502782636118619
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222157111048578325}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3514017279110161309
 GameObject:
   m_ObjectHideFlags: 0
@@ -4017,7 +3994,6 @@ GameObject:
   - component: {fileID: 4351906279132405178}
   - component: {fileID: 4975586887295567807}
   - component: {fileID: 7634586173203030084}
-  - component: {fileID: 2260817650924093440}
   m_Layer: 0
   m_Name: TopOvenGrill
   m_TagString: Untagged
@@ -41946,28 +41922,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4909488604316517695}
   m_Mesh: {fileID: 0}
---- !u!64 &2260817650924093440
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4909488604316517695}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &5080666724421948455
 GameObject:
   m_ObjectHideFlags: 0
@@ -41980,7 +41934,6 @@ GameObject:
   - component: {fileID: 5196611719119996827}
   - component: {fileID: 807410900194832211}
   - component: {fileID: 3302334479572573896}
-  - component: {fileID: 6345954704395824840}
   m_Layer: 0
   m_Name: BottomOvenGrill
   m_TagString: Untagged
@@ -79909,28 +79862,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5080666724421948455}
   m_Mesh: {fileID: 0}
---- !u!64 &6345954704395824840
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5080666724421948455}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &5371554204465433880
 GameObject:
   m_ObjectHideFlags: 0
@@ -80296,7 +80227,6 @@ GameObject:
   - component: {fileID: 7651691678272190537}
   - component: {fileID: 8222551886115954940}
   - component: {fileID: 8599885201324288788}
-  - component: {fileID: 6261423954675777225}
   m_Layer: 0
   m_Name: BackBigGrill
   m_TagString: Untagged
@@ -82438,28 +82368,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6141560403365078144}
   m_Mesh: {fileID: 0}
---- !u!64 &6261423954675777225
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6141560403365078144}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &6213738869857847599
 GameObject:
   m_ObjectHideFlags: 0
@@ -82473,7 +82381,6 @@ GameObject:
   - component: {fileID: 4070680330313965639}
   - component: {fileID: 1355916054477558118}
   - component: {fileID: 7168030372244810517}
-  - component: {fileID: 6333704225103168660}
   m_Layer: 0
   m_Name: FrontBigGrill
   m_TagString: Untagged
@@ -84614,28 +84521,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6213738869857847599}
-  m_Mesh: {fileID: 0}
---- !u!64 &6333704225103168660
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6213738869857847599}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!1 &6385357973245192801
 GameObject:
@@ -87439,7 +87324,6 @@ GameObject:
   - component: {fileID: 1521356804110288894}
   - component: {fileID: 5419980245677961686}
   - component: {fileID: 4874316896425038617}
-  - component: {fileID: 2900985152318394431}
   m_Layer: 0
   m_Name: FrontSmallGrill
   m_TagString: Untagged
@@ -89580,26 +89464,4 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8459027303752995095}
-  m_Mesh: {fileID: 0}
---- !u!64 &2900985152318394431
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8459027303752995095}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
   m_Mesh: {fileID: 0}

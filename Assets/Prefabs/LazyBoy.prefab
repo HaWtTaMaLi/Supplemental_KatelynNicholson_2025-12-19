@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 792418131034416303}
   - component: {fileID: 2610316607950248803}
   - component: {fileID: 847204449950549502}
-  - component: {fileID: 726792308949954979}
   m_Layer: 0
   m_Name: LeftSidePillow
   m_TagString: Untagged
@@ -630,28 +629,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298096011363967268}
   m_Mesh: {fileID: 0}
---- !u!64 &726792308949954979
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1298096011363967268}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &2110494079817976909
 GameObject:
   m_ObjectHideFlags: 0
@@ -665,7 +642,6 @@ GameObject:
   - component: {fileID: 4802130821531798325}
   - component: {fileID: 1951393406047252}
   - component: {fileID: 5210235474043879824}
-  - component: {fileID: 3837523896521823598}
   m_Layer: 0
   m_Name: RightSidePillow
   m_TagString: Untagged
@@ -1281,28 +1257,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110494079817976909}
-  m_Mesh: {fileID: 0}
---- !u!64 &3837523896521823598
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2110494079817976909}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!1 &4848859057460994258
 GameObject:

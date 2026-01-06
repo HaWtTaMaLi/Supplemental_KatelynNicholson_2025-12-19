@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 5987870654002346619}
   - component: {fileID: 4078448319588368396}
   - component: {fileID: 4745729636521301463}
-  - component: {fileID: 1473027268763981341}
   m_Layer: 0
   m_Name: VeggieDrawr
   m_TagString: Untagged
@@ -1651,28 +1650,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1821950407821278610}
   m_Mesh: {fileID: 0}
---- !u!64 &1473027268763981341
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821950407821278610}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &4624504697031819091
 GameObject:
   m_ObjectHideFlags: 0
@@ -1686,7 +1663,6 @@ GameObject:
   - component: {fileID: 5612603581818034103}
   - component: {fileID: 5717571295412901298}
   - component: {fileID: 825950466652194724}
-  - component: {fileID: 5668243263369370261}
   m_Layer: 0
   m_Name: MeatDrawr
   m_TagString: Untagged
@@ -3323,28 +3299,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4624504697031819091}
-  m_Mesh: {fileID: 0}
---- !u!64 &5668243263369370261
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4624504697031819091}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!1 &5181004397340437646
 GameObject:
@@ -6435,7 +6389,6 @@ GameObject:
   - component: {fileID: 4430111962124317552}
   - component: {fileID: 1541971727798423333}
   - component: {fileID: 852517810666047767}
-  - component: {fileID: 3588034521749767320}
   m_Layer: 0
   m_Name: BottomShelf
   m_TagString: Untagged
@@ -10983,28 +10936,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5736826311715176221}
   m_Mesh: {fileID: 0}
---- !u!64 &3588034521749767320
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5736826311715176221}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &6619756939289798886
 GameObject:
   m_ObjectHideFlags: 0
@@ -11410,7 +11341,6 @@ GameObject:
   - component: {fileID: 3307768194819962694}
   - component: {fileID: 109419369985919916}
   - component: {fileID: 5086233440551034830}
-  - component: {fileID: 1766433654393915675}
   m_Layer: 0
   m_Name: MiddleShelf
   m_TagString: Untagged
@@ -12448,28 +12378,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8287324128081623218}
   m_Mesh: {fileID: 0}
---- !u!64 &1766433654393915675
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8287324128081623218}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &8674784009179365709
 GameObject:
   m_ObjectHideFlags: 0
@@ -12835,7 +12743,6 @@ GameObject:
   - component: {fileID: 507105756245291244}
   - component: {fileID: 6534217896801516535}
   - component: {fileID: 7230258250368486628}
-  - component: {fileID: 2066102055349731774}
   m_Layer: 0
   m_Name: FreezerShelf
   m_TagString: Untagged
@@ -13873,28 +13780,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9020786344095166422}
   m_Mesh: {fileID: 0}
---- !u!64 &2066102055349731774
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9020786344095166422}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &9068436743399926297
 GameObject:
   m_ObjectHideFlags: 0
@@ -13908,7 +13793,6 @@ GameObject:
   - component: {fileID: 1799183620459845846}
   - component: {fileID: 2493791769385638440}
   - component: {fileID: 7604627225357551268}
-  - component: {fileID: 6882714495751145180}
   m_Layer: 0
   m_Name: TopShelf
   m_TagString: Untagged
@@ -14945,26 +14829,4 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9068436743399926297}
-  m_Mesh: {fileID: 0}
---- !u!64 &6882714495751145180
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9068436743399926297}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
   m_Mesh: {fileID: 0}

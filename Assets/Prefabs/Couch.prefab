@@ -47,7 +47,6 @@ GameObject:
   - component: {fileID: 1459315400681781151}
   - component: {fileID: 6327582548560573577}
   - component: {fileID: 2090830294318009123}
-  - component: {fileID: 7296488761079998531}
   m_Layer: 0
   m_Name: RightSidePillow
   m_TagString: Untagged
@@ -663,28 +662,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7181562440496576758}
-  m_Mesh: {fileID: 0}
---- !u!64 &7296488761079998531
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7181562440496576758}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!1 &8924350118285757122
 GameObject:
