@@ -3,13 +3,13 @@ using UnityEngine.Playables;
 
 public class lightsOn : MonoBehaviour
 {
-    public PlayableDirector lightsOnEvent;
+    public PlayableDirector animationClip;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            lightsOnEvent.Play();
+            animationClip.Play();
         }
     }
 }
